@@ -10,4 +10,7 @@
 
 
 module load SciPy-bundle/2019.10-foss-2019b-Python-3.7.4
-time python pi_1.py --n 1000
+
+printf "\nCalculating pi for $1 iterations\n\n"
+
+time python pi_1.py --n $1
